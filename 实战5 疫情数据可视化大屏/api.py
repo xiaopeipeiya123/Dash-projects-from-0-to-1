@@ -4,7 +4,7 @@ today = pd.to_datetime('today').strftime('%B %d %Y')
 
 
 import os
-os.chdir(r'D:\Data Science\plotly学习\个人\【10. Covid data visualizing】Dropdown-pie-line-map-indicator-bar\assets')
+os.chdir(r'/workspaces/Dash-projects-from-0-to-1/实战5 疫情数据可视化大屏/assets')
 confirmed = pd.read_csv('data/confirmed.csv')
 deaths = pd.read_csv('data/death.csv')
 recovered = pd.read_csv('data/recovered.csv')
